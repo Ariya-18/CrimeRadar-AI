@@ -182,3 +182,16 @@
     border-right-color: var(--border);
   }
 }
+body {
+  background-color: #0b0b0b;
+  color: white;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  background-color: #0b0b0b;
+  min-height: 100vh;
+}
