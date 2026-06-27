@@ -9,9 +9,13 @@ import AreaDetail from './pages/AreaDetail'
 import GetAlerts from './pages/GetAlerts'
 import SOSSetup from './pages/SOSSetup'
 import SOSTrigger from './pages/SOSTrigger'
-import DangerZoneWatcher from './components/DangerZoneWatcher'
-import SafeRoute from './pages/SafeRoute'
+import Settings from './pages/Settings'
+import WomenSafety from './pages/WomenSafety'
+import SafeRoutePlanner from './pages/SafeRoute'
+//import HeatMapPage from './pages/HeatMapPage'
+import ReportCrime from './pages/ReportCrime'
 import Chatbot from './pages/Chatbot'
+
 function HomePage() {
   return (
     <div style={{ background: '#0b0b0b', minHeight: '100vh' }}>
@@ -20,7 +24,6 @@ function HomePage() {
       <Hero />
       <Stats />
       <Features />
-      <DangerZoneWatcher />  {/* ← add this */}
     </div>
   )
 }
@@ -34,8 +37,11 @@ function App() {
         <Route path="/alerts" element={<GetAlerts />} />
         <Route path="/sos" element={<SOSSetup />} />
         <Route path="/sos-trigger" element={<SOSTrigger />} />
-        <Route path="/safe-route" element={<SafeRoute />} />
-        <Route path="/chat" element={<Chatbot />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/women-safety" element={<WomenSafety />} />
+        <Route path="/safe-route" element={<SafeRoutePlanner />} />
+        <Route path="/report" element={<ReportCrime />} />
+        <Route path="/chatbot" element={<Chatbot />} />
       </Routes>
     </BrowserRouter>
   )

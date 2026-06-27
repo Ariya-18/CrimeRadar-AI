@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState , useEffect} from 'react'
 import { useNavigate } from 'react-router-dom'
 import emailjs from '@emailjs/browser'
 import coimbatoreAreas from '../data/coimbatoreData'
@@ -17,6 +17,25 @@ export default function GetAlerts() {
   const [submitted, setSubmitted]   = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [errorMsg, setErrorMsg]     = useState('')
+
+
+  useEffect(function() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(pos) {
+      const lat = pos.coords.latitude
+      const lng = pos.coords.longitude
+      let closest = null
+      let minDist = Infinity
+      coimbatoreAreas.forEach(function(area) {
+        const dist = Math.sqrt(Math.pow(area.lat - lat, 2) + Math.pow(area.lng - lng, 2))
+        if (dist < minDist) { minDist = dist; closest = area }
+      })
+      if (closest && closest.safeScore < 70) {
+        alert('🚨 DANGER ZONE ALERT!\n\nYou are near ' + closest.name + '\nSafety Score: ' + closest.safeScore + '/100\n\nPlease be careful!')
+      }
+    })
+  }
+}, [])
 
   function handleChange(e) {
     setForm({ ...form, [e.target.name]: e.target.value })
