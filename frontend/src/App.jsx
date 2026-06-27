@@ -9,7 +9,9 @@ import AreaDetail from './pages/AreaDetail'
 import GetAlerts from './pages/GetAlerts'
 import SOSSetup from './pages/SOSSetup'
 import SOSTrigger from './pages/SOSTrigger'
-
+import DangerZoneWatcher from './components/DangerZoneWatcher'
+import SafeRoute from './pages/SafeRoute'
+import Chatbot from './pages/Chatbot'
 function HomePage() {
   return (
     <div style={{ background: '#0b0b0b', minHeight: '100vh' }}>
@@ -18,6 +20,7 @@ function HomePage() {
       <Hero />
       <Stats />
       <Features />
+      <DangerZoneWatcher />  {/* ← add this */}
     </div>
   )
 }
@@ -31,6 +34,8 @@ function App() {
         <Route path="/alerts" element={<GetAlerts />} />
         <Route path="/sos" element={<SOSSetup />} />
         <Route path="/sos-trigger" element={<SOSTrigger />} />
+        <Route path="/safe-route" element={<SafeRoute />} />
+        <Route path="/chat" element={<Chatbot />} />
       </Routes>
     </BrowserRouter>
   )

@@ -8,6 +8,8 @@ const coimbatoreAreas = [
     lng: 76.9558,
     safeTime: "6:00 AM – 9:00 PM",
     unsafeTime: "10:00 PM – 5:00 AM",
+    police: { station: "RS Puram Police Station", phone: "0422-2541100", distance: "0.4 km" },
+    hospital: { name: "KG Hospital", phone: "0422-2212222", distance: "1.2 km" },
     recentCrimes: [
       { type: "Chain Snatching", date: "12 Jun 2025", time: "8:30 PM", severity: "medium" },
       { type: "Vehicle Theft", date: "05 Jun 2025", time: "11:00 PM", severity: "medium" },
@@ -23,6 +25,8 @@ const coimbatoreAreas = [
     lng: 76.9558,
     safeTime: "7:00 AM – 7:00 PM",
     unsafeTime: "8:00 PM – 6:00 AM",
+    police: { station: "Gandhipuram Police Station", phone: "0422-2394100", distance: "0.2 km" },
+    hospital: { name: "GKNM Hospital", phone: "0422-2321111", distance: "0.8 km" },
     recentCrimes: [
       { type: "Pickpocketing", date: "15 Jun 2025", time: "5:30 PM", severity: "medium" },
       { type: "Chain Snatching", date: "10 Jun 2025", time: "9:00 PM", severity: "high" },
@@ -39,6 +43,8 @@ const coimbatoreAreas = [
     lng: 77.0198,
     safeTime: "6:00 AM – 10:00 PM",
     unsafeTime: "11:00 PM – 5:00 AM",
+    police: { station: "Peelamedu Police Station", phone: "0422-2572100", distance: "0.6 km" },
+    hospital: { name: "PSG Hospitals", phone: "0422-4345000", distance: "1.0 km" },
     recentCrimes: [
       { type: "Vehicle Theft", date: "14 Jun 2025", time: "9:00 PM", severity: "medium" },
       { type: "Petty Theft", date: "07 Jun 2025", time: "3:00 PM", severity: "low" },
@@ -53,6 +59,8 @@ const coimbatoreAreas = [
     lng: 76.9426,
     safeTime: "6:00 AM – 10:00 PM",
     unsafeTime: "11:00 PM – 5:00 AM",
+    police: { station: "Saibaba Colony Police Station", phone: "0422-2431100", distance: "0.3 km" },
+    hospital: { name: "Kovai Medical Center", phone: "0422-4323800", distance: "2.1 km" },
     recentCrimes: [
       { type: "Petty Theft", date: "10 Jun 2025", time: "4:00 PM", severity: "low" },
     ]
@@ -66,6 +74,8 @@ const coimbatoreAreas = [
     lng: 77.0249,
     safeTime: "7:00 AM – 8:00 PM",
     unsafeTime: "9:00 PM – 6:00 AM",
+    police: { station: "Singanallur Police Station", phone: "0422-2692100", distance: "0.5 km" },
+    hospital: { name: "Singanallur Govt Hospital", phone: "0422-2691234", distance: "0.7 km" },
     recentCrimes: [
       { type: "Chain Snatching", date: "16 Jun 2025", time: "7:30 PM", severity: "high" },
       { type: "Robbery", date: "11 Jun 2025", time: "10:30 PM", severity: "high" },
@@ -81,6 +91,8 @@ const coimbatoreAreas = [
     lng: 76.9628,
     safeTime: "8:00 AM – 6:00 PM",
     unsafeTime: "7:00 PM – 7:00 AM",
+    police: { station: "Ukkadam Police Station", phone: "0422-2316100", distance: "0.3 km" },
+    hospital: { name: "Coimbatore Medical College", phone: "0422-2301393", distance: "1.5 km" },
     recentCrimes: [
       { type: "Robbery", date: "17 Jun 2025", time: "9:00 PM", severity: "high" },
       { type: "Assault", date: "13 Jun 2025", time: "11:00 PM", severity: "high" },
@@ -98,6 +110,8 @@ const coimbatoreAreas = [
     lng: 77.0311,
     safeTime: "6:00 AM – 10:00 PM",
     unsafeTime: "11:00 PM – 5:00 AM",
+    police: { station: "Peelamedu Police Station", phone: "0422-2572100", distance: "1.2 km" },
+    hospital: { name: "PSG Hospitals", phone: "0422-4345000", distance: "1.8 km" },
     recentCrimes: [
       { type: "Petty Theft", date: "09 Jun 2025", time: "6:00 PM", severity: "low" },
       { type: "Vehicle Theft", date: "30 May 2025", time: "9:00 PM", severity: "medium" },
@@ -112,6 +126,8 @@ const coimbatoreAreas = [
     lng: 76.9671,
     safeTime: "6:00 AM – 9:00 PM",
     unsafeTime: "10:00 PM – 5:00 AM",
+    police: { station: "Kavundampalayam Police Station", phone: "0422-2440100", distance: "0.4 km" },
+    hospital: { name: "Ramakrishna Hospital", phone: "0422-4500000", distance: "1.3 km" },
     recentCrimes: [
       { type: "Chain Snatching", date: "14 Jun 2025", time: "8:00 PM", severity: "high" },
       { type: "Petty Theft", date: "06 Jun 2025", time: "2:00 PM", severity: "low" },
@@ -126,6 +142,8 @@ const coimbatoreAreas = [
     lng: 76.9988,
     safeTime: "7:00 AM – 7:00 PM",
     unsafeTime: "8:00 PM – 6:00 AM",
+    police: { station: "Singanallur Police Station", phone: "0422-2692100", distance: "1.1 km" },
+    hospital: { name: "Coimbatore Medical College", phone: "0422-2301393", distance: "2.0 km" },
     recentCrimes: [
       { type: "Robbery", date: "15 Jun 2025", time: "10:00 PM", severity: "high" },
       { type: "Assault", date: "09 Jun 2025", time: "11:30 PM", severity: "high" },
@@ -141,6 +159,8 @@ const coimbatoreAreas = [
     lng: 76.9102,
     safeTime: "6:00 AM – 10:00 PM",
     unsafeTime: "11:00 PM – 5:00 AM",
+    police: { station: "Vadavalli Police Station", phone: "0422-2422100", distance: "0.3 km" },
+    hospital: { name: "Vadavalli Govt Hospital", phone: "0422-2421234", distance: "0.5 km" },
     recentCrimes: [
       { type: "Petty Theft", date: "11 Jun 2025", time: "3:30 PM", severity: "low" },
       { type: "Vehicle Theft", date: "04 Jun 2025", time: "8:00 PM", severity: "medium" },
@@ -155,6 +175,8 @@ const coimbatoreAreas = [
     lng: 76.9671,
     safeTime: "6:00 AM – 9:30 PM",
     unsafeTime: "10:00 PM – 5:30 AM",
+    police: { station: "RS Puram Police Station", phone: "0422-2541100", distance: "0.8 km" },
+    hospital: { name: "KG Hospital", phone: "0422-2212222", distance: "0.9 km" },
     recentCrimes: [
       { type: "Chain Snatching", date: "13 Jun 2025", time: "8:30 PM", severity: "medium" },
       { type: "Petty Theft", date: "05 Jun 2025", time: "1:00 PM", severity: "low" },
@@ -169,6 +191,8 @@ const coimbatoreAreas = [
     lng: 76.9426,
     safeTime: "6:00 AM – 11:00 PM",
     unsafeTime: "12:00 AM – 5:00 AM",
+    police: { station: "Kuniyamuthur Police Station", phone: "0422-2610100", distance: "1.4 km" },
+    hospital: { name: "Kovai Medical Center", phone: "0422-4323800", distance: "3.2 km" },
     recentCrimes: [
       { type: "Petty Theft", date: "08 Jun 2025", time: "5:00 PM", severity: "low" },
     ]
@@ -182,6 +206,8 @@ const coimbatoreAreas = [
     lng: 76.9558,
     safeTime: "6:30 AM – 8:30 PM",
     unsafeTime: "9:00 PM – 6:00 AM",
+    police: { station: "Thudiyalur Police Station", phone: "0422-2660100", distance: "0.3 km" },
+    hospital: { name: "Thudiyalur Govt Hospital", phone: "0422-2661234", distance: "0.6 km" },
     recentCrimes: [
       { type: "Vehicle Theft", date: "16 Jun 2025", time: "9:30 PM", severity: "medium" },
       { type: "Chain Snatching", date: "10 Jun 2025", time: "7:30 PM", severity: "high" },
@@ -197,6 +223,8 @@ const coimbatoreAreas = [
     lng: 76.9865,
     safeTime: "7:00 AM – 7:30 PM",
     unsafeTime: "8:00 PM – 6:30 AM",
+    police: { station: "Ramanathapuram Police Station", phone: "0422-2364100", distance: "0.2 km" },
+    hospital: { name: "Coimbatore Medical College", phone: "0422-2301393", distance: "1.8 km" },
     recentCrimes: [
       { type: "Robbery", date: "17 Jun 2025", time: "10:00 PM", severity: "high" },
       { type: "Chain Snatching", date: "12 Jun 2025", time: "8:00 PM", severity: "high" },
@@ -212,6 +240,8 @@ const coimbatoreAreas = [
     lng: 76.9742,
     safeTime: "8:00 AM – 6:00 PM",
     unsafeTime: "7:00 PM – 7:00 AM",
+    police: { station: "Podanur Police Station", phone: "0422-2416100", distance: "0.4 km" },
+    hospital: { name: "Podanur Govt Hospital", phone: "0422-2411234", distance: "0.7 km" },
     recentCrimes: [
       { type: "Assault", date: "18 Jun 2025", time: "11:00 PM", severity: "high" },
       { type: "Robbery", date: "14 Jun 2025", time: "10:30 PM", severity: "high" },
@@ -228,6 +258,8 @@ const coimbatoreAreas = [
     lng: 76.9742,
     safeTime: "6:00 AM – 10:00 PM",
     unsafeTime: "11:00 PM – 5:00 AM",
+    police: { station: "Ganapathy Police Station", phone: "0422-2481100", distance: "0.3 km" },
+    hospital: { name: "Ramakrishna Hospital", phone: "0422-4500000", distance: "1.0 km" },
     recentCrimes: [
       { type: "Vehicle Theft", date: "13 Jun 2025", time: "9:00 PM", severity: "medium" },
       { type: "Petty Theft", date: "07 Jun 2025", time: "2:30 PM", severity: "low" },
@@ -242,6 +274,8 @@ const coimbatoreAreas = [
     lng: 76.9310,
     safeTime: "7:00 AM – 8:00 PM",
     unsafeTime: "9:00 PM – 6:00 AM",
+    police: { station: "Kuniyamuthur Police Station", phone: "0422-2610100", distance: "0.3 km" },
+    hospital: { name: "Kovai Medical Center", phone: "0422-4323800", distance: "2.5 km" },
     recentCrimes: [
       { type: "Chain Snatching", date: "15 Jun 2025", time: "7:30 PM", severity: "high" },
       { type: "Vehicle Theft", date: "09 Jun 2025", time: "10:00 PM", severity: "medium" },
@@ -257,6 +291,8 @@ const coimbatoreAreas = [
     lng: 77.0434,
     safeTime: "6:30 AM – 9:00 PM",
     unsafeTime: "10:00 PM – 6:00 AM",
+    police: { station: "Singanallur Police Station", phone: "0422-2692100", distance: "1.8 km" },
+    hospital: { name: "PSG Hospitals", phone: "0422-4345000", distance: "2.2 km" },
     recentCrimes: [
       { type: "Vehicle Theft", date: "16 Jun 2025", time: "9:30 PM", severity: "medium" },
       { type: "Petty Theft", date: "08 Jun 2025", time: "4:00 PM", severity: "low" },
@@ -271,6 +307,8 @@ const coimbatoreAreas = [
     lng: 77.0434,
     safeTime: "6:00 AM – 9:30 PM",
     unsafeTime: "10:30 PM – 5:30 AM",
+    police: { station: "Neelambur Police Station", phone: "0422-2656100", distance: "0.4 km" },
+    hospital: { name: "PSG Hospitals", phone: "0422-4345000", distance: "3.1 km" },
     recentCrimes: [
       { type: "Petty Theft", date: "12 Jun 2025", time: "5:00 PM", severity: "low" },
       { type: "Vehicle Theft", date: "04 Jun 2025", time: "8:30 PM", severity: "medium" },
@@ -285,6 +323,8 @@ const coimbatoreAreas = [
     lng: 77.1243,
     safeTime: "6:00 AM – 10:00 PM",
     unsafeTime: "11:00 PM – 5:00 AM",
+    police: { station: "Sulur Police Station", phone: "0422-2680100", distance: "0.5 km" },
+    hospital: { name: "Sulur Govt Hospital", phone: "0422-2681234", distance: "0.8 km" },
     recentCrimes: [
       { type: "Petty Theft", date: "11 Jun 2025", time: "3:00 PM", severity: "low" },
     ]
@@ -298,6 +338,8 @@ const coimbatoreAreas = [
     lng: 76.9310,
     safeTime: "6:00 AM – 10:30 PM",
     unsafeTime: "11:30 PM – 5:00 AM",
+    police: { station: "Kinathukadavu Police Station", phone: "04259-262100", distance: "0.6 km" },
+    hospital: { name: "Kinathukadavu Govt Hospital", phone: "04259-261234", distance: "0.9 km" },
     recentCrimes: [
       { type: "Petty Theft", date: "09 Jun 2025", time: "4:30 PM", severity: "low" },
     ]
@@ -311,6 +353,8 @@ const coimbatoreAreas = [
     lng: 76.9179,
     safeTime: "6:00 AM – 10:30 PM",
     unsafeTime: "11:30 PM – 5:00 AM",
+    police: { station: "Kuniyamuthur Police Station", phone: "0422-2610100", distance: "1.2 km" },
+    hospital: { name: "Kovai Medical Center", phone: "0422-4323800", distance: "3.0 km" },
     recentCrimes: [
       { type: "Petty Theft", date: "07 Jun 2025", time: "5:30 PM", severity: "low" },
     ]
@@ -324,6 +368,8 @@ const coimbatoreAreas = [
     lng: 77.0065,
     safeTime: "6:00 AM – 10:00 PM",
     unsafeTime: "11:00 PM – 5:00 AM",
+    police: { station: "Saravanampatty Police Station", phone: "0422-2662100", distance: "0.4 km" },
+    hospital: { name: "Saravanampatty Govt Hospital", phone: "0422-2661234", distance: "0.7 km" },
     recentCrimes: [
       { type: "Vehicle Theft", date: "14 Jun 2025", time: "9:00 PM", severity: "medium" },
       { type: "Petty Theft", date: "06 Jun 2025", time: "2:00 PM", severity: "low" },
@@ -338,6 +384,8 @@ const coimbatoreAreas = [
     lng: 77.0311,
     safeTime: "6:30 AM – 9:30 PM",
     unsafeTime: "10:30 PM – 5:30 AM",
+    police: { station: "Saravanampatty Police Station", phone: "0422-2662100", distance: "1.1 km" },
+    hospital: { name: "PSG Hospitals", phone: "0422-4345000", distance: "2.4 km" },
     recentCrimes: [
       { type: "Chain Snatching", date: "13 Jun 2025", time: "8:00 PM", severity: "medium" },
       { type: "Petty Theft", date: "05 Jun 2025", time: "3:00 PM", severity: "low" },
@@ -352,6 +400,8 @@ const coimbatoreAreas = [
     lng: 77.0065,
     safeTime: "7:00 AM – 8:00 PM",
     unsafeTime: "9:00 PM – 6:00 AM",
+    police: { station: "Vellalore Police Station", phone: "0422-2695100", distance: "0.4 km" },
+    hospital: { name: "Vellalore Govt Hospital", phone: "0422-2691234", distance: "0.6 km" },
     recentCrimes: [
       { type: "Robbery", date: "17 Jun 2025", time: "10:00 PM", severity: "high" },
       { type: "Chain Snatching", date: "11 Jun 2025", time: "8:30 PM", severity: "high" },
@@ -367,6 +417,8 @@ const coimbatoreAreas = [
     lng: 76.9673,
     safeTime: "8:00 AM – 7:00 PM",
     unsafeTime: "8:00 PM – 7:00 AM",
+    police: { station: "Town Police Station", phone: "0422-2301100", distance: "0.3 km" },
+    hospital: { name: "Coimbatore Medical College", phone: "0422-2301393", distance: "0.9 km" },
     recentCrimes: [
       { type: "Pickpocketing", date: "18 Jun 2025", time: "6:00 PM", severity: "medium" },
       { type: "Chain Snatching", date: "15 Jun 2025", time: "9:00 PM", severity: "high" },
@@ -383,6 +435,8 @@ const coimbatoreAreas = [
     lng: 76.9634,
     safeTime: "8:00 AM – 7:00 PM",
     unsafeTime: "8:00 PM – 7:00 AM",
+    police: { station: "Town Police Station", phone: "0422-2301100", distance: "0.2 km" },
+    hospital: { name: "Coimbatore Medical College", phone: "0422-2301393", distance: "1.0 km" },
     recentCrimes: [
       { type: "Pickpocketing", date: "17 Jun 2025", time: "5:00 PM", severity: "medium" },
       { type: "Chain Snatching", date: "12 Jun 2025", time: "8:30 PM", severity: "high" },
@@ -398,6 +452,8 @@ const coimbatoreAreas = [
     lng: 76.9426,
     safeTime: "7:00 AM – 8:30 PM",
     unsafeTime: "9:30 PM – 6:00 AM",
+    police: { station: "Ukkadam Police Station", phone: "0422-2316100", distance: "1.0 km" },
+    hospital: { name: "Coimbatore Medical College", phone: "0422-2301393", distance: "1.6 km" },
     recentCrimes: [
       { type: "Chain Snatching", date: "14 Jun 2025", time: "8:00 PM", severity: "medium" },
       { type: "Petty Theft", date: "07 Jun 2025", time: "3:30 PM", severity: "low" },
@@ -412,6 +468,8 @@ const coimbatoreAreas = [
     lng: 76.9865,
     safeTime: "6:00 AM – 9:30 PM",
     unsafeTime: "10:30 PM – 5:30 AM",
+    police: { station: "Kavundampalayam Police Station", phone: "0422-2440100", distance: "1.2 km" },
+    hospital: { name: "Ramakrishna Hospital", phone: "0422-4500000", distance: "1.8 km" },
     recentCrimes: [
       { type: "Vehicle Theft", date: "13 Jun 2025", time: "9:00 PM", severity: "medium" },
       { type: "Petty Theft", date: "05 Jun 2025", time: "2:00 PM", severity: "low" },
@@ -426,12 +484,24 @@ const coimbatoreAreas = [
     lng: 76.9865,
     safeTime: "6:30 AM – 8:30 PM",
     unsafeTime: "9:30 PM – 6:00 AM",
+    police: { station: "Thudiyalur Police Station", phone: "0422-2660100", distance: "0.8 km" },
+    hospital: { name: "Thudiyalur Govt Hospital", phone: "0422-2661234", distance: "1.1 km" },
     recentCrimes: [
       { type: "Chain Snatching", date: "16 Jun 2025", time: "7:30 PM", severity: "high" },
       { type: "Vehicle Theft", date: "10 Jun 2025", time: "9:00 PM", severity: "medium" },
       { type: "Petty Theft", date: "03 Jun 2025", time: "4:00 PM", severity: "low" },
     ]
   },
+]
+
+// Global emergency numbers
+export const EMERGENCY_NUMBERS = [
+  { label: 'Police',         number: '100',      icon: '🚔' },
+  { label: 'Ambulance',      number: '108',      icon: '🚑' },
+  { label: 'Fire',           number: '101',      icon: '🚒' },
+  { label: 'Women Helpline', number: '1091',     icon: '👩' },
+  { label: 'Disaster',       number: '1078',     icon: '⚠️' },
+  { label: 'Child Helpline', number: '1098',     icon: '👶' },
 ]
 
 export default coimbatoreAreas
